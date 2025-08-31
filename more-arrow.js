@@ -12,4 +12,9 @@ const age =getAge(student);
 const getThird =numbers => numbers[2];
 
 const third =getThird([12,36,35,26,32,45,36]);
-console.log(third)
+// console.log(third)
+
+// No parameter
+const getPI =() =>Math.pI;
+// console.log(getPI())
+console.log(this)
