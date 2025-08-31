@@ -18,6 +18,7 @@ const email ='hi john \n'+
 
 // console.log(email);
 
+// buck tick
 const challenge =`johe cena
 cena nake ochena 
 mari dumu kintu
