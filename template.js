@@ -16,4 +16,11 @@ const email ='hi john \n'+
 'cena cena lage \n'+
 'valo lage ';
 
-console.log(email)
+// console.log(email);
+
+const challenge =`johe cena
+cena nake ochena 
+mari dumu kintu
+`;
+
+console.log(challenge)
