@@ -8,5 +8,16 @@ setTimeout(() =>{
 console.log(5)
 console.log(6)
 console.log(7)
+let num =0; 
+const clockId= setInterval(() =>{
+    num++
+    console.log('i m u');
+    
+    if(num >6){
+        clearInterval(clockId)
+    }
+    console.log( num)
+},2000)
 console.log(8)
 console.log(9)
+
