@@ -1,19 +1,28 @@
-function a(){
+function a() {
     console.log('a');
     b();
     console.log('aa')
 }
 
-function b(){
+function b() {
     console.log('b');
     d()
     console.log('bb')
 }
 
-function d(){
+function d() {
     console.log('d')
 
     console.log('dd')
 }
+
+setTimeout(() =>{
+    console.log(21212121)
+},3000)
+
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(json => console.log(json))
 
 a()
