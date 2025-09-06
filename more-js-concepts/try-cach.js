@@ -12,15 +12,16 @@ function checkAge(){
         else if(age<18){
             throw 'bacha kaccha not allowed'
         }
+        else if(age>30){
+            throw "apnara ay thane achen na"
+        }
         errorTag.innerHTML =''
     }
     catch(error){
-        console.log("Error",error)
-        errorTag.innerText=`something wrong`
+        // console.log("Error",error)
+        errorTag.innerHTML=`something wrong`
     }
     finally{
         console.log('all done inside try catch')
     }
 }
-
-checkAge()
